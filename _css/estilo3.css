@@ -356,7 +356,7 @@ div#destaques {
 .roover{
     opacity: 0;
     text-align: center;
-    padding-top: 50%;
+    padding-top: 40%;
    
     
 
@@ -365,6 +365,7 @@ div#destaques {
 .card-text{
     font-style: italic;
     font-size: large;
+    
     
 }
 .roover:hover{
@@ -382,4 +383,8 @@ div#destaques {
 }
 .footerzin{
     font-size: small;
+}
+.card-text{
+    -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
 }

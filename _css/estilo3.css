@@ -148,7 +148,7 @@ h3#caption-home {
 
 }
 
-/* fim do media query*/
+
 
 .footer {
     padding-top: 5%;
@@ -228,12 +228,13 @@ h3#caption-home {
     justify-content: center;
 }
 
-.certificados, img {
+.certificados,
+img {
     display: flex;
     margin-right: 1%;
     margin-bottom: 4%;
-    
-    
+
+
 }
 
 div#info-conteudo {
@@ -258,32 +259,31 @@ div#destaques {
     margin-top: 2%;
     margin: auto;
     background-color: rgb(22, 20, 20);
-    
-   
     align-items: center;
-    
+
 
 
 }
 
 .cola {
-    
-    
+
+
     padding-top: 2%;
-    
+
 }
 
 .colb {
-    
+
     padding-top: 2%;
-    
+
 }
 
 .colc {
-    
+
     padding-top: 2%;
 }
-.titulos-footer{
+
+.titulos-footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
@@ -291,100 +291,117 @@ div#destaques {
     text-align: center;
     padding-top: 5%;
 
-    
+
 }
-.description-footer{
+
+.description-footer {
     color: white;
     font-family: Tahoma, sans-serif;
     line-height: 140%;
     text-align: center;
     font-size: medium;
-    
+
 }
-.googou{
+
+.googou {
     text-decoration: none;
     color: rgb(126, 125, 125);
 }
-.googou:hover{
+
+.googou:hover {
     text-decoration: none;
     color: white
 }
 
-.colc , i{
+.colc,
+i {
     padding-top: 2%;
     color: gray;
     text-align: center;
     font-size: xx-large;
 }
 
-.bi-facebook:hover{
+.bi-facebook:hover {
     color: rgb(68, 68, 255);
 }
-.bi-instagram:hover{
+
+.bi-instagram:hover {
     color: rgb(177, 40, 74);
 }
-.bi-envelope:hover{
+
+.bi-envelope:hover {
     color: white;
 }
-.bi-twitter:hover{
+
+.bi-twitter:hover {
     color: rgb(112, 112, 245);
 }
-.bi-whatsapp:hover{
-    color:rgba(38, 207, 46, 0.664)
+
+.bi-whatsapp:hover {
+    color: rgba(38, 207, 46, 0.664)
 }
 
-.formaca{
-    
+.formaca {
+
     text-align: center;
     margin-top: -5%;
 }
 
-@media (max-width: 450px){
-    .formaca{
+@media (max-width: 450px) {
+    .formaca {
         text-align: center;
-        
+
     }
 }
-.separar{
+
+.separar {
     display: flex;
     margin: auto;
-    
+
 }
-.espaco{
+
+.espaco {
     padding-left: 4%;
 }
-.roover{
+
+.roover {
     opacity: 0;
     text-align: center;
     padding-top: 40%;
-   
-    
+
+
 
 
 }
-.card-text{
+
+.card-text {
     font-style: italic;
     font-size: large;
-    
-    
+
+
 }
-.roover:hover{
+
+.roover:hover {
     opacity: 1;
     transition: 0.7s;
 
 }
-@media (max-width: 600px){
-    .roover{
+
+@media (max-width: 600px) {
+    .roover {
         opacity: 1;
     }
 }
-.bi-geo-alt{
+
+.bi-geo-alt {
     font-size: medium;
 }
-.footerzin{
+
+.footerzin {
     font-size: small;
 }
-.card-text{
+
+.card-text {
     -webkit-text-stroke-width: 0.2px;
-        -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
